@@ -731,7 +731,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------*/
 
 .bg-banner-img {
-  background-image: url(../images/hope.jpg);
+  background-image: url(../images/hope1.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
   -webkit-background-size: cover;
@@ -742,11 +742,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   max-width: 100%;
 }
 
-.about-bg-banner-img {
+
+.about-bg-banner-imgannouncement {
   background: rgba(255, 255, 255, 0);
-  background-image: url(../images/about_banner.jpg);
+  background-image: url(../images/announcementbanner.jpg);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -754,6 +755,45 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   position: relative;
   max-width: 100%;
 }
+.about-bg-banner-imgmediacenter {
+  background: rgba(255, 255, 255, 0);
+  background-image: url(../images/mediacenter.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+}
+
+.about-bg-banner-imgdownloads {
+  background: rgba(255, 255, 255, 0);
+  background-image: url(../images/download.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+}
+.about-bg-banner-imgcontactus {
+  background: rgba(255, 255, 255, 0);
+  background-image: url(../images/contactus.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+}
+
+
 
 .service-bg-banner-img {
   background: rgba(255, 255, 255, 0);
@@ -1857,7 +1897,7 @@ a {
 
 .clip-polygon_left {
   background-color: #fff !important;
-  background: url(../images/s-left.jpg) right top no-repeat;
+  background: url(../images/venue.jpg) right top no-repeat;
   background-size: cover;
 }
 
